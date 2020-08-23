@@ -1,0 +1,23 @@
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-right: 1rem;
+  font-size: 2.5rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.agriculture-img {
+  background-image: url("/assets/img/agriculture.jpg");
+  min-height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}

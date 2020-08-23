@@ -1,0 +1,33 @@
+<app-farmer-search
+    (partnerSelectedEvent)="mySelectedFarmer($event)"
+    [farmerSearchAbstractProvider]="myFarmerSearchProvider">
+</app-farmer-search>
+
+<div *ngFor="let farmer of farmers">
+    <mat-card class="card-farmer">
+            <mat-card-content class="card-content-farmer">
+                <table class="form-field-b" cellspacing="0"><tr>
+                    <td>
+                        <mat-form-field class="form-field-m">
+                            <mat-label>Name</mat-label>
+                            <input matInput disabled #name="ngModel"
+                            [(ngModel)]="farmer.name">
+                        </mat-form-field>
+                    </td>
+                    <td>
+                        <mat-form-field class="form-field-m" *ngFor="let doc of farmer.documents">
+                            <mat-label>Doc</mat-label>
+                            <input matInput disabled #document="ngModel"
+                            [(ngModel)]="doc.documentNumber">
+                        </mat-form-field>
+                    </td>
+                </table>
+                    <mat-form-field class="form-field-b" *ngFor="let address of farmer.address">
+                        <mat-label>Address</mat-label>
+                        <input matInput disabled  #addresses="ngModel"
+                        [(ngModel)]="address.address">
+                    </mat-form-field>            
+            </mat-card-content>
+    </mat-card>
+    <br>
+</div>

@@ -1,0 +1,15 @@
+<br>
+<br>
+<mat-card class="card-farmer">
+  <mat-card-content class="card-content-farmer">
+      <mat-form-field class="form-field">
+        <mat-label>Name or Doc</mat-label>
+        <input matInput type="text" [(ngModel)]="name">  
+      </mat-form-field> 
+      <button mat-mini-fab color="primary" (click)="searchFarme(name)">
+        <mat-icon matSuffix>search</mat-icon>
+      </button>
+  </mat-card-content>
+</mat-card>
+<br>
+

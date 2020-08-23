@@ -1,0 +1,35 @@
+
+/* Você pode usar estilos globais aqui, ou importar outros estilos */
+
+/* Estilo do Bootstrap */
+@import "variables";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/utilities";
+@import "reset";
+
+/* Estilo do Bootstrap */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto,'Open Sans Condensed', sans-serif; }
+.container{ height: 100%; width: 100%;}
+small { font-size: 90%;}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+footer {
+  background-image: linear-gradient(black, rgb(104, 101, 101));;
+  color: #F2F7FF;
+ }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
