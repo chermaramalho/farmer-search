@@ -8,7 +8,7 @@
 <a id="user-content-development-server" class="anchor" href="#development-server" aria-hidden="true"></a>Getting Started</h2>
 
 <p dir="auto">To get started run the commands below.<p>
-<p dir="auto"><div class="highlight highlight-source-shell"><pre>$ git clone http://10.8.4.31:8010/cherma/abitus-app.git
+<p dir="auto"><div class="highlight highlight-source-shell"><pre>$ git clone https://github.com/chermaramalho/farmer-search.git
 $ <span class="pl-c1">cd</span> farmer-app
 $ npm install
 $ npm start</pre></div></p>
@@ -57,7 +57,8 @@ $ npm start</pre></div></p>
 <a id="user-content-development-server" class="anchor" href="#development-server" aria-hidden="true"></a>Getting Started</h2>
 
 <p dir="auto">To get started run the commands below.<p>
-<p dir="auto"><div class="highlight highlight-source-shell"><pre>$ git clone http://10.8.4.31:8010/cherma/abitus-app.git
+<p dir="auto"><div class="highlight highlight-source-shell"><pre>$ git clone https://github.com/chermaramalho/farmer-search.git
+<p dir="auto"><div class="highlight highlight-source-shell"><pre>$ git clone https://github.com/chermaramalho/farmer-search.git
 $ <span class="pl-c1">cd</span> farmer-api <br>
 To run locally:
 * Make sure you have install and run PostgreSQL server
